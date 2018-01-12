@@ -24,6 +24,12 @@ Changes
 Fixes
 =====
 
+- Fixed an issue where attempting to collect documents (using the common
+  statements ``DELETE``,``UPDATE``, ``SELECT`` or any other statement
+  containing a subquery) from a shard that was not ``STARTED``  resulted in a
+  ``SQLActionException`` by waiting for the shard to become available (possibly
+  on another node in case it's relocating)
+
 - Fixed an issue that could cause ``INSERT INTO`` statements into partitioned
   tables to not work correctly. This only occurred if a ``query`` instead of
   the ``VALUES`` clause was used.
