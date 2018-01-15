@@ -424,7 +424,7 @@ public class RelationAnalyzer extends DefaultTraversalVisitor<AnalyzedRelation, 
         List<Symbol> groupBy = new ArrayList<>(outputSymbols.size());
         for (Symbol symbol : outputSymbols) {
             if (Aggregations.containsAggregation(symbol) == false) {
-                GroupBySymbolValidator.validate(symbol);
+                GroupBySymbolValidator.validateForDistinctRewrite(symbol);
                 groupBy.add(symbol);
             }
         }
