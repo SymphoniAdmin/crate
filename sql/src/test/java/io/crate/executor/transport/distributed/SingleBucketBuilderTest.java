@@ -25,6 +25,7 @@ package io.crate.executor.transport.distributed;
 import io.crate.Streamer;
 import io.crate.data.BatchIterator;
 import io.crate.data.Bucket;
+import io.crate.execution.engine.transport.SingleBucketBuilder;
 import io.crate.test.integration.CrateUnitTest;
 import io.crate.testing.BatchSimulatingIterator;
 import io.crate.testing.FailingBatchIterator;

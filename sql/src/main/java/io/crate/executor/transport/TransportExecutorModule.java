@@ -21,12 +21,13 @@
 
 package io.crate.executor.transport;
 
-import io.crate.action.job.ContextPreparer;
-import io.crate.action.job.TransportJobAction;
+import io.crate.execution.engine.transport.TransportFetchNodeAction;
+import io.crate.execution.engine.setup.ContextPreparer;
+import io.crate.execution.engine.transport.TransportJobAction;
 import io.crate.executor.transport.ddl.TransportDropTableAction;
 import io.crate.executor.transport.ddl.TransportOpenCloseTableOrPartitionAction;
 import io.crate.executor.transport.ddl.TransportRenameTableAction;
-import io.crate.executor.transport.distributed.TransportDistributedResultAction;
+import io.crate.execution.engine.transport.TransportDistributedResultAction;
 import io.crate.executor.transport.kill.TransportKillAllNodeAction;
 import io.crate.executor.transport.kill.TransportKillJobsNodeAction;
 import io.crate.lucene.LuceneQueryBuilder;

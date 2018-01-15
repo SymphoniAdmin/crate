@@ -22,7 +22,7 @@
 package io.crate.jobs;
 
 import io.crate.Streamer;
-import io.crate.action.job.SharedShardContexts;
+import io.crate.execution.engine.setup.SharedShardContexts;
 import io.crate.breaker.RamAccountingContext;
 import io.crate.metadata.Routing;
 import io.crate.metadata.RowGranularity;

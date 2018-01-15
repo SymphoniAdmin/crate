@@ -25,7 +25,7 @@ package io.crate.executor;
 import io.crate.analyze.symbol.SelectSymbol;
 import io.crate.data.CollectingRowConsumer;
 import io.crate.data.Row;
-import io.crate.executor.transport.FirstColumnConsumers;
+import io.crate.execution.engine.FirstColumnConsumers;
 import io.crate.planner.DependencyCarrier;
 import io.crate.planner.PlannerContext;
 import io.crate.planner.operators.LogicalPlan;

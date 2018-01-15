@@ -26,7 +26,7 @@ import io.crate.action.sql.DCLStatementDispatcher;
 import io.crate.action.sql.DDLStatementDispatcher;
 import io.crate.executor.transport.TransportActionProvider;
 import io.crate.executor.transport.ddl.TransportDropTableAction;
-import io.crate.executor.transport.executionphases.PhasesTaskFactory;
+import io.crate.execution.engine.PhasesTaskFactory;
 import io.crate.metadata.Functions;
 import io.crate.execution.dsl.projection.builder.ProjectionBuilder;
 import org.elasticsearch.cluster.service.ClusterService;

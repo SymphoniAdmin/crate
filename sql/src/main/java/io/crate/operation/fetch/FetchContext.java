@@ -23,8 +23,8 @@ package io.crate.operation.fetch;
 
 import com.carrotsearch.hppc.IntObjectHashMap;
 import com.carrotsearch.hppc.cursors.IntObjectCursor;
-import io.crate.action.job.SharedShardContext;
-import io.crate.action.job.SharedShardContexts;
+import io.crate.execution.engine.setup.SharedShardContext;
+import io.crate.execution.engine.setup.SharedShardContexts;
 import io.crate.jobs.AbstractExecutionSubContext;
 import io.crate.metadata.IndexParts;
 import io.crate.metadata.Reference;

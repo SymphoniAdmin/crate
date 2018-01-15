@@ -24,7 +24,7 @@ package io.crate.operation.collect;
 import com.carrotsearch.hppc.IntObjectHashMap;
 import com.carrotsearch.hppc.cursors.ObjectCursor;
 import com.google.common.annotations.VisibleForTesting;
-import io.crate.action.job.SharedShardContexts;
+import io.crate.execution.engine.setup.SharedShardContexts;
 import io.crate.breaker.RamAccountingContext;
 import io.crate.data.ListenableRowConsumer;
 import io.crate.data.RowConsumer;

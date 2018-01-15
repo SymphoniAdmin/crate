@@ -28,9 +28,9 @@ import io.crate.Streamer;
 import io.crate.action.FutureActionListener;
 import io.crate.breaker.RamAccountingContext;
 import io.crate.data.Bucket;
-import io.crate.executor.transport.NodeFetchRequest;
-import io.crate.executor.transport.NodeFetchResponse;
-import io.crate.executor.transport.TransportFetchNodeAction;
+import io.crate.execution.engine.transport.NodeFetchRequest;
+import io.crate.execution.engine.transport.NodeFetchResponse;
+import io.crate.execution.engine.transport.TransportFetchNodeAction;
 
 import java.util.Map;
 import java.util.UUID;

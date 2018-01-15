@@ -21,7 +21,8 @@
 
 package io.crate.executor.transport;
 
-import io.crate.action.job.TransportJobAction;
+import io.crate.execution.engine.transport.TransportFetchNodeAction;
+import io.crate.execution.engine.transport.TransportJobAction;
 import io.crate.executor.transport.kill.TransportKillAllNodeAction;
 import io.crate.executor.transport.kill.TransportKillJobsNodeAction;
 import org.elasticsearch.action.admin.cluster.settings.TransportClusterUpdateSettingsAction;

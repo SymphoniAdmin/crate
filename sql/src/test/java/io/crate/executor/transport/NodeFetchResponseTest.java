@@ -31,6 +31,8 @@ import io.crate.Streamer;
 import io.crate.breaker.RamAccountingContext;
 import io.crate.data.Row;
 import io.crate.data.RowN;
+import io.crate.execution.engine.transport.NodeFetchResponse;
+import io.crate.execution.engine.transport.StreamBucket;
 import io.crate.test.integration.CrateUnitTest;
 import io.crate.types.DataTypes;
 import org.elasticsearch.common.breaker.CircuitBreakingException;

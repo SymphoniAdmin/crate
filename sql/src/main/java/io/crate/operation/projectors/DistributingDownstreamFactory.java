@@ -23,11 +23,11 @@ package io.crate.operation.projectors;
 
 import io.crate.Streamer;
 import io.crate.data.RowConsumer;
-import io.crate.executor.transport.distributed.BroadcastingBucketBuilder;
-import io.crate.executor.transport.distributed.DistributingConsumer;
-import io.crate.executor.transport.distributed.ModuloBucketBuilder;
-import io.crate.executor.transport.distributed.MultiBucketBuilder;
-import io.crate.executor.transport.distributed.TransportDistributedResultAction;
+import io.crate.execution.engine.transport.BroadcastingBucketBuilder;
+import io.crate.execution.engine.transport.DistributingConsumer;
+import io.crate.execution.engine.transport.ModuloBucketBuilder;
+import io.crate.execution.engine.transport.MultiBucketBuilder;
+import io.crate.execution.engine.transport.TransportDistributedResultAction;
 import io.crate.execution.dsl.phases.NodeOperation;
 import io.crate.planner.distribution.DistributionInfo;
 import io.crate.execution.dsl.phases.ExecutionPhases;

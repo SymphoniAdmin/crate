@@ -23,8 +23,8 @@ package io.crate.operation.collect.sources;
 
 import com.google.common.base.Suppliers;
 import com.google.common.collect.Iterables;
-import io.crate.action.job.SharedShardContext;
-import io.crate.action.job.SharedShardContexts;
+import io.crate.execution.engine.setup.SharedShardContext;
+import io.crate.execution.engine.setup.SharedShardContexts;
 import io.crate.analyze.EvaluatingNormalizer;
 import io.crate.analyze.OrderBy;
 import io.crate.analyze.symbol.Symbols;

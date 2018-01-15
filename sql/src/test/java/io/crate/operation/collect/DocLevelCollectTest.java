@@ -22,8 +22,8 @@
 package io.crate.operation.collect;
 
 import com.google.common.collect.ImmutableList;
-import io.crate.action.job.ContextPreparer;
-import io.crate.action.job.SharedShardContexts;
+import io.crate.execution.engine.setup.ContextPreparer;
+import io.crate.execution.engine.setup.SharedShardContexts;
 import io.crate.action.sql.SessionContext;
 import io.crate.analyze.WhereClause;
 import io.crate.analyze.symbol.Function;

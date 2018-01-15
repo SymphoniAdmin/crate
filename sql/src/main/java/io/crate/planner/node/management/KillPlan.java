@@ -26,7 +26,7 @@ import io.crate.analyze.symbol.SelectSymbol;
 import io.crate.data.Row;
 import io.crate.data.Row1;
 import io.crate.data.RowConsumer;
-import io.crate.executor.transport.OneRowActionListener;
+import io.crate.execution.support.OneRowActionListener;
 import io.crate.executor.transport.kill.KillAllRequest;
 import io.crate.executor.transport.kill.KillJobsRequest;
 import io.crate.executor.transport.kill.TransportKillAllNodeAction;

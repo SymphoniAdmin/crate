@@ -22,7 +22,7 @@
 
 package io.crate.operation.collect;
 
-import io.crate.action.job.SharedShardContext;
+import io.crate.execution.engine.setup.SharedShardContext;
 import io.crate.analyze.EvaluatingNormalizer;
 import io.crate.data.Input;
 import io.crate.data.Row;

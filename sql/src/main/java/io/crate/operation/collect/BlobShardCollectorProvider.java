@@ -23,7 +23,7 @@
 package io.crate.operation.collect;
 
 import com.google.common.collect.ImmutableList;
-import io.crate.action.job.SharedShardContext;
+import io.crate.execution.engine.setup.SharedShardContext;
 import io.crate.blob.v2.BlobShard;
 import io.crate.data.Row;
 import io.crate.executor.transport.TransportActionProvider;

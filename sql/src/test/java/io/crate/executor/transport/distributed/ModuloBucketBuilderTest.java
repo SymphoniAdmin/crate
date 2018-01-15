@@ -24,6 +24,7 @@ package io.crate.executor.transport.distributed;
 import io.crate.Streamer;
 import io.crate.data.Bucket;
 import io.crate.data.Row1;
+import io.crate.execution.engine.transport.ModuloBucketBuilder;
 import io.crate.test.integration.CrateUnitTest;
 import io.crate.testing.TestingHelpers;
 import io.crate.types.DataTypes;

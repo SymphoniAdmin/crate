@@ -23,9 +23,9 @@
 package io.crate.operation.collect.collectors;
 
 import com.google.common.annotations.VisibleForTesting;
-import io.crate.action.job.JobRequest;
-import io.crate.action.job.JobResponse;
-import io.crate.action.job.TransportJobAction;
+import io.crate.execution.engine.transport.JobRequest;
+import io.crate.execution.engine.transport.JobResponse;
+import io.crate.execution.engine.transport.TransportJobAction;
 import io.crate.breaker.RamAccountingContext;
 import io.crate.data.Row;
 import io.crate.data.RowConsumer;
