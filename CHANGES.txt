@@ -24,6 +24,8 @@ Changes
 Fixes
 =====
 
+- Fix log verbosity by only logging the SSL enabled/disabled message once.
+
 - Fixed an issue that could cause ``INSERT INTO`` statements into partitioned
   tables to not work correctly. This only occurred if a ``query`` instead of
   the ``VALUES`` clause was used.
